@@ -1,0 +1,28 @@
+﻿<Window x:Class="LibraryWPF.AddB"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LibraryWPF"
+        mc:Ignorable="d"
+        Title="AddB" Height="310" Width="400">
+    <Grid Background="#FF1C5FD8" Margin="10, 10, 10, 10"  MaxHeight="290" MaxWidth="390">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1.5*" />
+            <RowDefinition Height="1*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Label Content="Add New Book" Grid.Row="0" HorizontalAlignment="Center" Height="46" Margin="0,10,0,0" VerticalAlignment="Top" Width="258" FontSize="32" FontFamily="Segoe UI Semibold" FontWeight="Bold" Foreground="Black"/>
+        <Label Content="Book Title" Grid.Row="1" HorizontalAlignment="Left" Height="36" Margin="10,10,0,0" VerticalAlignment="Top" Width="127" FontSize="19" FontFamily="Segoe UI Semibold" FontWeight="Bold" Foreground="#FFFBF7F7"/>
+        <Label Content="Year Published" Grid.Row="1" HorizontalAlignment="Left" Height="36" Margin="0,61,0,0" VerticalAlignment="Top" Width="137" FontSize="19" FontFamily="Segoe UI Semibold" FontWeight="Bold" Foreground="#FFFBF7F7"/>
+        <TextBox x:Name="title_txt" Grid.Row="1" HorizontalAlignment="Left" Height="36" Margin="142,10,0,0" VerticalAlignment="Top" Width="214"  BorderBrush="Black" Background="#FFDEDEDE"/>
+        <TextBox x:Name="yearPublished_txt" Grid.Row="1" HorizontalAlignment="Left" Height="36" Margin="142,61,0,0" VerticalAlignment="Top" Width="214"  BorderBrush="Black" Background="#FFDEDEDE"/>
+        <Button x:Name="saveBtn" Grid.Row="2" Content="Save" HorizontalAlignment="Left" Height="50" Margin="64,0,0,0" VerticalAlignment="Center"  Width="126" Background="#FF23D700" Foreground="White" FontFamily="Segoe UI Semibold" FontSize="24" Click="SaveBtn_Click"/>
+        <Button x:Name="cancelBtn" Grid.Row="2" Content="Cancel" HorizontalAlignment="Left" Height="50" Margin="202,0,0,0" VerticalAlignment="Center"  Width="126" Background="#FFD02E69" Foreground="White" FontFamily="Segoe UI Semibold" FontSize="24" Click="CancelBtn_Click"/>
+
+    </Grid>
+</Window>

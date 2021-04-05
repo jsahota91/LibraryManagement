@@ -1,0 +1,56 @@
+﻿<Page x:Class="LibraryWPF.BPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:LibraryWPF"
+      mc:Ignorable="d"
+      WindowHeight="520" WindowWidth="821"
+      d:DesignHeight="510" d:DesignWidth="821"
+      Title="Book">
+
+    <Grid Background="#FF0059A4" Margin="10,10,10,10" MaxHeight="495" MaxWidth="800">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.5*" />
+            <RowDefinition Height="1.9*" />
+            <RowDefinition Height="2.1*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <StackPanel Grid.Column="0" Orientation="Horizontal" Height="35" VerticalAlignment="Center" Margin="10,0,295,0" Grid.ColumnSpan="2">
+            <Button Content="Home" MinWidth="80" Margin="0,0,0,0" Click="HomePgClick"/>
+            <Button Content="Genre" MinWidth="80" Margin="20,0,0,0" Click="GenrePgClick"/>
+            <Button Content="Author" MinWidth="80" Margin="20,0,0,0" Click="AuthorPgClick"/>
+            <Button Content="Location" MinWidth="80" Margin="20,0,0,0" Click="LocationPgClick"/>
+            <Button Content="Records" MinWidth="80" Margin="20,0,0,0" Click="RecordsPgClick"/>
+        </StackPanel>
+
+        <Grid Grid.Column="0" Grid.Row="1" HorizontalAlignment="Left" Height="168" Margin="64,212,0,0" VerticalAlignment="Top" Width="284" Grid.RowSpan="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="232*"/>
+                <ColumnDefinition Width="53*"/>
+            </Grid.ColumnDefinitions>
+            <Button x:Name="insertBtn" Content="Insert" HorizontalAlignment="Left" Height="38" VerticalAlignment="Top" Width="126" Background="#FFC1FFFD" FontFamily="Segoe UI Semibold" FontSize="24" Click="InsertBtn_Click"/>
+            <Button x:Name="updateBtn" Content="Update" HorizontalAlignment="Left" Height="37" VerticalAlignment="Top" Width="126" Background="#FFC1FFFD" FontFamily="Segoe UI Semibold" FontSize="24" Click="UpdateBtn_Click" Margin="0,56,0,0"/>
+            <Button x:Name="deleteBtn" Content="Delete" HorizontalAlignment="Left" Height="37" VerticalAlignment="Top" Width="126" Background="#FFC1FFFD" FontFamily="Segoe UI Semibold" FontSize="24" Margin="158,0,0,0" Click="DeleteBtn_Click" Grid.ColumnSpan="2"/>
+            <Button x:Name="clearBtn" Content="Clear" HorizontalAlignment="Left" Height="37" Margin="158,55,0,0" VerticalAlignment="Top"  Width="126" Background="#FFC1FFFD" FontFamily="Segoe UI Semibold" FontSize="24" Click="ClearBtn_Click" Grid.ColumnSpan="2"/>
+            <Button x:Name="refreshBtn" Content="Refresh" HorizontalAlignment="Left" Height="37" Margin="79,110,0,10" VerticalAlignment="Top"  Width="126" Background="#FFC1FFFD" FontFamily="Segoe UI Semibold" FontSize="24" Click="RefreshBtn_Click"/>
+        </Grid>
+
+        <Grid Grid.Column="0" HorizontalAlignment="Left" Height="207" Margin="64,47,0,0" VerticalAlignment="Top" Width="284" Grid.RowSpan="2">
+            <Label Content="Book Id" HorizontalAlignment="Left" Height="28" VerticalAlignment="Top" Width="108" FontSize="15" FontFamily="Segoe UI Semibold" FontWeight="Bold" Foreground="#FFFBF7F7"/>
+            <TextBox x:Name="id_txt" HorizontalAlignment="Center" Height="28" Margin="0,33,0,0" VerticalAlignment="Top" Width="284"  BorderBrush="Black" Background="white" FontSize="17" IsReadOnly="True"/>
+            <Label Content="Title" HorizontalAlignment="Left" Height="28" Margin="0,63,0,0" VerticalAlignment="Top" Width="108" FontSize="15" FontFamily="Segoe UI Semibold" FontWeight="Bold" Foreground="#FFFBF7F7"/>
+            <TextBox x:Name="title_txt" HorizontalAlignment="Center" Height="28" Margin="0,91,0,0" VerticalAlignment="Top" Width="284"  BorderBrush="Black" Background="white" FontSize="17"/>
+            <Label Content="Year Published" HorizontalAlignment="Left" Height="28" Margin="0,120,0,0" VerticalAlignment="Top" Width="128" FontSize="15" FontFamily="Segoe UI Semibold" FontWeight="Bold" Foreground="White"/>
+            <TextBox x:Name="yearPublished_txt" HorizontalAlignment="Center" Height="28" Margin="0,153,0,0" VerticalAlignment="Top" Width="284"  BorderBrush="Black" Background="white" FontSize="17"/>
+        </Grid>
+
+        <Label Content="Book Table Records" Grid.Column="1" Grid.Row="1" HorizontalAlignment="Left" Height="45" VerticalAlignment="Top" Width="286" FontSize="28" FontFamily="Segoe UI Semibold" FontWeight="Bold" Foreground="#FFFBF7F7" Margin="72,0,0,0"/>
+        <ListBox x:Name="ListBoxBook" Background="AliceBlue"  Grid.Column="1" Grid.Row="1" Grid.RowSpan="2" SelectionChanged="ListBoxBook_SelectionChanged" Margin="42,54,42,52"/>
+
+    </Grid>
+</Page>

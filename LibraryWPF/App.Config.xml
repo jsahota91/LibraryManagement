@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+  <connectionString>
+    <add name="connlibrary" 
+         connectionString="Data Source=(localdb)\\ProjectsV13;Initial Catalog=LibraryManagement;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False" />
+  </connectionString>
+</configuration>
