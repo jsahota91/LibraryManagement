@@ -6,7 +6,7 @@
       xmlns:local="clr-namespace:LibraryWPF"
       mc:Ignorable="d" 
       d:DesignHeight="540" d:DesignWidth="821"
-      WindowHeight="540" WindowWidth="821"
+      WindowHeight="560" WindowWidth="837"
       Title="RecordsPage" Height="510" Width="821">
 
     <Grid Background="#FF0059A4" Margin="10,10,10,10" MaxHeight="480" MaxWidth="800">

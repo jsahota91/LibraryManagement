@@ -1,25 +1,32 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="LibraryData.Author" Collapsed="true">
-    <Position X="4.75" Y="1.5" Width="1.5" />
+  <Class Name="LibraryData.Author">
+    <Position X="6" Y="1.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAEAAAAAAAABAAAAAAAAg=</HashCode>
       <FileName>Author.cs</FileName>
     </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="AuthorBooks" />
+    </ShowAsCollectionAssociation>
   </Class>
   <Class Name="LibraryData.AuthorBook" Collapsed="true">
-    <Position X="4.75" Y="0.5" Width="1.5" />
+    <Position X="6" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAACAAAAAAAAABAgAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
       <FileName>AuthorBook.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="LibraryData.Book" Collapsed="true">
-    <Position X="2.5" Y="0.5" Width="1.5" />
+  <Class Name="LibraryData.Book">
+    <Position X="3.25" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAACAAAAIAAAFAAAAIAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Book.cs</FileName>
     </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="BookGenres" />
+      <Property Name="AuthorBooks" />
+    </ShowAsCollectionAssociation>
   </Class>
   <Class Name="LibraryData.BookGenre" Collapsed="true">
     <Position X="0.5" Y="0.5" Width="1.5" />
@@ -28,19 +35,25 @@
       <FileName>BookGenre.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="LibraryData.Genre" Collapsed="true">
+  <Class Name="LibraryData.Genre">
     <Position X="0.5" Y="1.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAIBAAAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
       <FileName>Genre.cs</FileName>
     </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="BookGenres" />
+    </ShowAsCollectionAssociation>
   </Class>
-  <Class Name="LibraryData.Location" Collapsed="true">
-    <Position X="2.5" Y="3" Width="1.5" />
+  <Class Name="LibraryData.Location">
+    <Position X="3.25" Y="3" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAICAAAAAAAAABAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Location.cs</FileName>
     </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Book" />
+    </ShowAsAssociation>
   </Class>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>

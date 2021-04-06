@@ -5,7 +5,8 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:LibraryWPF"
       mc:Ignorable="d" 
-      d:DesignHeight="496" d:DesignWidth="821"
+      WindowHeight="520" WindowWidth="821"
+      d:DesignHeight="510" d:DesignWidth="821"
       Title="Author">
 
     <Grid Background="#FF0059A4" Margin="10,10,10,10" MaxHeight="480" MaxWidth="800">
@@ -37,15 +38,17 @@
 
         <Grid Grid.Column="0" HorizontalAlignment="Left" Height="207" Margin="64,47,0,0" VerticalAlignment="Top" Width="284" Grid.RowSpan="2">
             <Label Content="Author Id" HorizontalAlignment="Left" Height="28" VerticalAlignment="Top" Width="108" FontSize="15" FontFamily="Segoe UI Semibold" FontWeight="Bold" Foreground="#FFFBF7F7"/>
-            <TextBox x:Name="id_txt" HorizontalAlignment="Center" Height="28" Margin="0,33,0,0" VerticalAlignment="Top" Width="284"  BorderBrush="Black" Background="white" FontSize="18" IsReadOnly="True"/>
+            <TextBox x:Name="id_txt" HorizontalAlignment="Center" Height="28" Margin="0,33,0,0" VerticalAlignment="Top" Width="284"  BorderBrush="Black" Background="white" Padding="2,1,2,1" FontSize="14" IsReadOnly="True"/>
             <Label Content="First Name" HorizontalAlignment="Left" Height="28" Margin="0,63,0,0" VerticalAlignment="Top" Width="108" FontSize="15" FontFamily="Segoe UI Semibold" FontWeight="Bold" Foreground="#FFFBF7F7"/>
-            <TextBox x:Name="fName_txt" HorizontalAlignment="Center" Height="28" Margin="0,91,0,0" VerticalAlignment="Top" Width="284"  BorderBrush="Black" Background="white" FontSize="18"/>
+            <TextBox x:Name="fName_txt" HorizontalAlignment="Center" Height="28" Margin="0,91,0,0" VerticalAlignment="Top" Width="284"  BorderBrush="Black" Background="white" Padding="2,1,2,1" FontSize="14"/>
             <Label Content="Last Name" HorizontalAlignment="Left" Height="28" Margin="0,120,0,0" VerticalAlignment="Top" Width="128" FontSize="15" FontFamily="Segoe UI Semibold" FontWeight="Bold" Foreground="White"/>
-            <TextBox x:Name="lName_txt" HorizontalAlignment="Center" Height="28" Margin="0,153,0,0" VerticalAlignment="Top" Width="284"  BorderBrush="Black" Background="white" FontSize="18"/>
+            <TextBox x:Name="lName_txt" HorizontalAlignment="Center" Height="28" Margin="0,153,0,0" VerticalAlignment="Top" Width="284"  BorderBrush="Black" Background="white" Padding="2,1,2,1" FontSize="14"/>
         </Grid>
 
         <Label Content="Author Table Records" Grid.Column="1" Grid.Row="1" HorizontalAlignment="Center" Height="45" VerticalAlignment="Top" Width="286" FontSize="28" FontFamily="Segoe UI Semibold" FontWeight="Bold" Foreground="#FFFBF7F7" Margin="0,6,0,0"/>
-        <ListBox x:Name="ListBoxAuthor" Background="AliceBlue"  Grid.Column="1" Grid.Row="1" Grid.RowSpan="2" SelectionChanged="ListBoxAuthor_SelectionChanged" Margin="42,51,42,52"/>
-
+        <!--<ListBox x:Name="ListBoxAuthor" Background="AliceBlue"  Grid.Column="1" Grid.Row="1" Grid.RowSpan="2" SelectionChanged="ListBoxAuthor_SelectionChanged" Margin="42,51,42,52"/>-->
+        <Grid Grid.Column="1" Margin="39,48,42,33" Grid.Row="1" Grid.RowSpan="2">
+            <ListBox x:Name="ListBoxAuthor" Background="AliceBlue" SelectionChanged="ListBoxAuthor_SelectionChanged" Margin="10,10,10,10" ScrollViewer.VerticalScrollBarVisibility="Auto"/>
+        </Grid>
     </Grid>
 </Page>

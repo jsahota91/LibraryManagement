@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\source\\repos\\LibraryManagement - Copy\\LibraryWPF\\LibraryWPF.csproj": {}
+    "C:\\Users\\user\\source\\repos\\LibraryManagement\\LibraryWPF\\LibraryWPF.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\source\\repos\\LibraryManagement - Copy\\LibraryBusiness\\LibraryBusiness.csproj": {
+    "C:\\Users\\user\\source\\repos\\LibraryManagement\\LibraryBusiness\\LibraryBusiness.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\source\\repos\\LibraryManagement - Copy\\LibraryBusiness\\LibraryBusiness.csproj",
+        "projectUniqueName": "C:\\Users\\user\\source\\repos\\LibraryManagement\\LibraryBusiness\\LibraryBusiness.csproj",
         "projectName": "LibraryBusiness",
-        "projectPath": "C:\\Users\\user\\source\\repos\\LibraryManagement - Copy\\LibraryBusiness\\LibraryBusiness.csproj",
+        "projectPath": "C:\\Users\\user\\source\\repos\\LibraryManagement\\LibraryBusiness\\LibraryBusiness.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\source\\repos\\LibraryManagement - Copy\\LibraryBusiness\\obj\\",
+        "outputPath": "C:\\Users\\user\\source\\repos\\LibraryManagement\\LibraryBusiness\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\user\\source\\repos\\LibraryManagement - Copy\\LibraryManagement\\LibraryData.csproj": {
-                "projectPath": "C:\\Users\\user\\source\\repos\\LibraryManagement - Copy\\LibraryManagement\\LibraryData.csproj"
+              "C:\\Users\\user\\source\\repos\\LibraryManagement\\LibraryManagement\\LibraryData.csproj": {
+                "projectPath": "C:\\Users\\user\\source\\repos\\LibraryManagement\\LibraryManagement\\LibraryData.csproj"
               }
             }
           }
@@ -74,14 +74,14 @@
         }
       }
     },
-    "C:\\Users\\user\\source\\repos\\LibraryManagement - Copy\\LibraryManagement\\LibraryData.csproj": {
+    "C:\\Users\\user\\source\\repos\\LibraryManagement\\LibraryManagement\\LibraryData.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\source\\repos\\LibraryManagement - Copy\\LibraryManagement\\LibraryData.csproj",
+        "projectUniqueName": "C:\\Users\\user\\source\\repos\\LibraryManagement\\LibraryManagement\\LibraryData.csproj",
         "projectName": "LibraryData",
-        "projectPath": "C:\\Users\\user\\source\\repos\\LibraryManagement - Copy\\LibraryManagement\\LibraryData.csproj",
+        "projectPath": "C:\\Users\\user\\source\\repos\\LibraryManagement\\LibraryManagement\\LibraryData.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\source\\repos\\LibraryManagement - Copy\\LibraryManagement\\obj\\",
+        "outputPath": "C:\\Users\\user\\source\\repos\\LibraryManagement\\LibraryManagement\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -148,14 +148,14 @@
         }
       }
     },
-    "C:\\Users\\user\\source\\repos\\LibraryManagement - Copy\\LibraryWPF\\LibraryWPF.csproj": {
+    "C:\\Users\\user\\source\\repos\\LibraryManagement\\LibraryWPF\\LibraryWPF.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\source\\repos\\LibraryManagement - Copy\\LibraryWPF\\LibraryWPF.csproj",
+        "projectUniqueName": "C:\\Users\\user\\source\\repos\\LibraryManagement\\LibraryWPF\\LibraryWPF.csproj",
         "projectName": "LibraryWPF",
-        "projectPath": "C:\\Users\\user\\source\\repos\\LibraryManagement - Copy\\LibraryWPF\\LibraryWPF.csproj",
+        "projectPath": "C:\\Users\\user\\source\\repos\\LibraryManagement\\LibraryWPF\\LibraryWPF.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\source\\repos\\LibraryManagement - Copy\\LibraryWPF\\obj\\",
+        "outputPath": "C:\\Users\\user\\source\\repos\\LibraryManagement\\LibraryWPF\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -176,11 +176,11 @@
           "net5.0-windows7.0": {
             "targetAlias": "net5.0-windows",
             "projectReferences": {
-              "C:\\Users\\user\\source\\repos\\LibraryManagement - Copy\\LibraryBusiness\\LibraryBusiness.csproj": {
-                "projectPath": "C:\\Users\\user\\source\\repos\\LibraryManagement - Copy\\LibraryBusiness\\LibraryBusiness.csproj"
+              "C:\\Users\\user\\source\\repos\\LibraryManagement\\LibraryBusiness\\LibraryBusiness.csproj": {
+                "projectPath": "C:\\Users\\user\\source\\repos\\LibraryManagement\\LibraryBusiness\\LibraryBusiness.csproj"
               },
-              "C:\\Users\\user\\source\\repos\\LibraryManagement - Copy\\LibraryManagement\\LibraryData.csproj": {
-                "projectPath": "C:\\Users\\user\\source\\repos\\LibraryManagement - Copy\\LibraryManagement\\LibraryData.csproj"
+              "C:\\Users\\user\\source\\repos\\LibraryManagement\\LibraryManagement\\LibraryData.csproj": {
+                "projectPath": "C:\\Users\\user\\source\\repos\\LibraryManagement\\LibraryManagement\\LibraryData.csproj"
               }
             }
           }

@@ -19,8 +19,8 @@
         <Label Content="Add New Author" Grid.Row="0" HorizontalAlignment="Center" Height="46" Margin="0,10,0,0" VerticalAlignment="Top" Width="258" FontSize="32" FontFamily="Segoe UI Semibold" FontWeight="Bold" Foreground="Black"/>
         <Label Content="First Name" Grid.Row="1" HorizontalAlignment="Left" Height="36" Margin="10,10,0,0" VerticalAlignment="Top" Width="127" FontSize="20" FontFamily="Segoe UI Semibold" FontWeight="Bold" Foreground="#FFFBF7F7"/>
         <Label Content="Last Name" Grid.Row="1" HorizontalAlignment="Left" Height="36" Margin="10,60,0,0" VerticalAlignment="Top" Width="127" FontSize="20" FontFamily="Segoe UI Semibold" FontWeight="Bold" Foreground="#FFFBF7F7"/>
-        <TextBox x:Name="fName_txt" Grid.Row="1" HorizontalAlignment="Left" Height="36" Margin="142,10,0,0" VerticalAlignment="Top" Width="214"  BorderBrush="Black" Background="#FFDEDEDE"/>
-        <TextBox x:Name="lName_txt" Grid.Row="1" HorizontalAlignment="Left" Height="36" Margin="142,61,0,0" VerticalAlignment="Top" Width="214"  BorderBrush="Black" Background="#FFDEDEDE"/>
+        <TextBox x:Name="fName_txt" Grid.Row="1" HorizontalAlignment="Left" Height="36" Margin="142,10,0,0" VerticalAlignment="Top" Width="214"  BorderBrush="Black" Background="white" FontSize="15" Padding="2,5,5,2"/>
+        <TextBox x:Name="lName_txt" Grid.Row="1" HorizontalAlignment="Left" Height="36" Margin="142,61,0,0" VerticalAlignment="Top" Width="214"  BorderBrush="Black" Background="white" FontSize="15" Padding="2,5,5,2"/>
         <Button x:Name="saveBtn" Grid.Row="2" Content="Save" HorizontalAlignment="Left" Height="50" Margin="64,0,0,0" VerticalAlignment="Center"  Width="126" Background="#FF23D700" Foreground="White" FontFamily="Segoe UI Semibold" FontSize="24" Click="SaveBtn_Click"/>
         <Button x:Name="cancelBtn" Grid.Row="2" Content="Cancel" HorizontalAlignment="Left" Height="50" Margin="202,0,0,0" VerticalAlignment="Center"  Width="126" Background="#FFD02E69" Foreground="White" FontFamily="Segoe UI Semibold" FontSize="24" Click="CancelBtn_Click"/>
     </Grid>

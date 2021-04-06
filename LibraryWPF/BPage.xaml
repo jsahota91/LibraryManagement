@@ -42,15 +42,16 @@
 
         <Grid Grid.Column="0" HorizontalAlignment="Left" Height="207" Margin="64,47,0,0" VerticalAlignment="Top" Width="284" Grid.RowSpan="2">
             <Label Content="Book Id" HorizontalAlignment="Left" Height="28" VerticalAlignment="Top" Width="108" FontSize="15" FontFamily="Segoe UI Semibold" FontWeight="Bold" Foreground="#FFFBF7F7"/>
-            <TextBox x:Name="id_txt" HorizontalAlignment="Center" Height="28" Margin="0,33,0,0" VerticalAlignment="Top" Width="284"  BorderBrush="Black" Background="white" FontSize="17" IsReadOnly="True"/>
+            <TextBox x:Name="id_txt" HorizontalAlignment="Center" Height="28" Margin="0,33,0,0" VerticalAlignment="Top" Width="284"  BorderBrush="Black" Background="white" Padding="2,1,1,2" FontSize="14" IsReadOnly="True"/>
             <Label Content="Title" HorizontalAlignment="Left" Height="28" Margin="0,63,0,0" VerticalAlignment="Top" Width="108" FontSize="15" FontFamily="Segoe UI Semibold" FontWeight="Bold" Foreground="#FFFBF7F7"/>
-            <TextBox x:Name="title_txt" HorizontalAlignment="Center" Height="28" Margin="0,91,0,0" VerticalAlignment="Top" Width="284"  BorderBrush="Black" Background="white" FontSize="17"/>
+            <TextBox x:Name="title_txt" HorizontalAlignment="Center" Height="28" Margin="0,91,0,0" VerticalAlignment="Top" Width="284"  BorderBrush="Black" Background="white" Padding="2,1,1,2" FontSize="14"/>
             <Label Content="Year Published" HorizontalAlignment="Left" Height="28" Margin="0,120,0,0" VerticalAlignment="Top" Width="128" FontSize="15" FontFamily="Segoe UI Semibold" FontWeight="Bold" Foreground="White"/>
-            <TextBox x:Name="yearPublished_txt" HorizontalAlignment="Center" Height="28" Margin="0,153,0,0" VerticalAlignment="Top" Width="284"  BorderBrush="Black" Background="white" FontSize="17"/>
+            <TextBox x:Name="yearPublished_txt" HorizontalAlignment="Center" Height="28" Margin="0,153,0,0" VerticalAlignment="Top" Width="284"  BorderBrush="Black" Background="white" Padding="2,1,2,1" FontSize="14"/>
         </Grid>
 
-        <Label Content="Book Table Records" Grid.Column="1" Grid.Row="1" HorizontalAlignment="Left" Height="45" VerticalAlignment="Top" Width="286" FontSize="28" FontFamily="Segoe UI Semibold" FontWeight="Bold" Foreground="#FFFBF7F7" Margin="72,0,0,0"/>
-        <ListBox x:Name="ListBoxBook" Background="AliceBlue"  Grid.Column="1" Grid.Row="1" Grid.RowSpan="2" SelectionChanged="ListBoxBook_SelectionChanged" Margin="42,54,42,52"/>
-
+        <Label Content="Book Table Records" Grid.Column="1" HorizontalAlignment="Left" Height="45" VerticalAlignment="Top" Width="286" FontSize="28" FontFamily="Segoe UI Semibold" FontWeight="Bold" Foreground="#FFFBF7F7" Margin="72,53,0,0" Grid.RowSpan="2"/>
+        <Grid Grid.Column="1" Margin="39,49,42,52" Grid.Row="1" Grid.RowSpan="2">
+            <ListBox x:Name="ListBoxBook" Background="AliceBlue" SelectionChanged="ListBoxBook_SelectionChanged" Margin="10,10,10,0" ScrollViewer.VerticalScrollBarVisibility="Auto"/>
+        </Grid>
     </Grid>
 </Page>

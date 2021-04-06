@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IyDk/2up8XSKYxaGQUl3fAYKrq8kkzP7v7LYnwMz1KwOCe8T0HZAN85+78osMQ1+2hnLrt527/c30QTTyLyBnA==",
+  "dgSpecHash": "wBuVwJhdbn20/0ehA+7Ep6kt4T9iDlzKdISVvMDwxkiPlt1shafrfE79lT7SVNG8eRQFWeRPzHc3ypewK4S1fg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\source\\repos\\LibraryManagement - Copy\\LibraryWPF\\LibraryWPF.csproj",
+  "projectFilePath": "C:\\Users\\user\\source\\repos\\LibraryManagement\\LibraryWPF\\LibraryWPF.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",

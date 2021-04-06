@@ -138,3 +138,5 @@ C:\Users\user\source\repos\LibraryManagement - Copy\LibraryBusiness\obj\Debug\ne
 C:\Users\user\source\repos\LibraryManagement - Copy\LibraryBusiness\obj\Debug\net5.0\LibraryBusiness.genruntimeconfig.cache
 C:\Users\user\source\repos\LibraryManagement - Copy\LibraryBusiness\bin\Debug\net5.0\Humanizer.dll
 C:\Users\user\source\repos\LibraryManagement - Copy\LibraryBusiness\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\user\source\repos\LibraryManagement\LibraryBusiness\bin\Debug\net5.0\Humanizer.dll
+C:\Users\user\source\repos\LibraryManagement\LibraryBusiness\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll

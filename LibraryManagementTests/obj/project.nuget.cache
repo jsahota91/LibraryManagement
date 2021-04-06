@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DrB9lmmSa3TkY3+7XFLnuAU3fE8bNATxGiq57udSRbTQ/A882sTBT8bbw9MtDDLji0udMFB8CUgzL1X/P5mYnQ==",
+  "dgSpecHash": "pjf30CxGXdzyGDlVvTf071VToqNchj1YX1BPid1x0hYy/rmIMEjguc/GrpZKJQJVOyle0IVYCTP/kuN3uE1XQg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\source\\repos\\LibraryManagement - Copy\\LibraryManagementTests\\LibraryManagementTests.csproj",
+  "projectFilePath": "C:\\Users\\user\\source\\repos\\LibraryManagement\\LibraryManagementTests\\LibraryManagementTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\microsoft.codecoverage\\16.5.0\\microsoft.codecoverage.16.5.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

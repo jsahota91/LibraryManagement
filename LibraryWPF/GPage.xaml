@@ -5,7 +5,8 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:LibraryWPF"
       mc:Ignorable="d" 
-      d:DesignHeight="496" d:DesignWidth="821"
+      WindowHeight="520" WindowWidth="821"
+      d:DesignHeight="510" d:DesignWidth="821"
       Title="Genre">
 
     <Grid Background="#FF0059A4" Margin="10,10,10,10" MaxHeight="480" MaxWidth="800">
@@ -37,13 +38,16 @@
 
         <Grid Grid.Column="0" Grid.Row="1"  HorizontalAlignment="Left" Height="158" Margin="64,0,0,0" VerticalAlignment="Center" Width="284">
             <Label Content="Genre Id" HorizontalAlignment="Left" Height="33" VerticalAlignment="Top" Width="108" FontSize="18" FontFamily="Segoe UI Semibold" FontWeight="Bold" Foreground="#FFFBF7F7"/>
-            <TextBox x:Name="id_txt" HorizontalAlignment="Center" Height="33" Margin="0,33,0,0"  VerticalAlignment="Top" Width="284" BorderBrush="Black" Background="white" FontSize="25" IsReadOnly="True"/>
+            <TextBox x:Name="id_txt" HorizontalAlignment="Center" Height="33" Margin="0,33,0,0"  VerticalAlignment="Top" Width="284" BorderBrush="Black" Background="white" Padding="2,1,2,1" FontSize="16" IsReadOnly="True"/>
             <Label Content="Genre Name" HorizontalAlignment="Left" Height="33" VerticalAlignment="Top" Width="132" FontSize="18" FontFamily="Segoe UI Semibold" FontWeight="Bold" Foreground="#FFFBF7F7" Margin="0,73,0,0"/>
-            <TextBox x:Name="gName_txt" HorizontalAlignment="Center" Height="33" Margin="0,110,0,0" VerticalAlignment="Top" Width="284"  BorderBrush="Black" Background="white" FontSize="25"/>
+            <TextBox x:Name="gName_txt" HorizontalAlignment="Center" Height="33" Margin="0,110,0,0" VerticalAlignment="Top" Width="284"  BorderBrush="Black" Background="white" Padding="2,1,2,1" FontSize="16"/>
         </Grid>
 
         <Label Content="Genre Table Records" Grid.Column="1" Grid.Row="1" HorizontalAlignment="Center" Height="44" VerticalAlignment="Top" Width="286" FontSize="30" FontFamily="Segoe UI Semibold" FontWeight="Bold" Foreground="#FFFBF7F7"/>
-        <ListBox x:Name="ListBoxGenre" Background="AliceBlue"  Grid.Column="1" Grid.Row="1" Grid.RowSpan="2" SelectionChanged="ListBoxGenre_SelectionChanged" Margin="42,52,42,41"/>
-
+        
+        <!--<ListBox x:Name="ListBoxGenre" Background="AliceBlue"  Grid.Column="1" Grid.Row="1" Grid.RowSpan="2" SelectionChanged="ListBoxGenre_SelectionChanged" Margin="42,52,42,41"/>-->
+        <Grid Grid.Column="1" Margin="39,48,42,33" Grid.Row="1" Grid.RowSpan="2">
+            <ListBox x:Name="ListBoxGenre" Background="AliceBlue" SelectionChanged="ListBoxGenre_SelectionChanged" Margin="10,10,10,10" ScrollViewer.VerticalScrollBarVisibility="Auto"/>
+        </Grid>
     </Grid>
 </Page>

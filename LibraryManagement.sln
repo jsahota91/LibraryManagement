@@ -17,7 +17,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibraryBusiness", "LibraryB
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LibraryWPF", "LibraryWPF", "{6CB2FA62-B573-4919-B8A7-E3E3DCCAB992}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryWPF", "LibraryWPF\LibraryWPF.csproj", "{75EEF577-1140-407A-BF67-0D12288D415C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibraryWPF", "LibraryWPF\LibraryWPF.csproj", "{75EEF577-1140-407A-BF67-0D12288D415C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5B3A2020-30AE-40CD-8656-792C513DDDD7}"
+	ProjectSection(SolutionItems) = preProject
+		ReadMe.md = ReadMe.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

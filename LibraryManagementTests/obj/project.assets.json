@@ -7165,11 +7165,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\source\\repos\\LibraryManagement - Copy\\LibraryManagementTests\\LibraryManagementTests.csproj",
+      "projectUniqueName": "C:\\Users\\user\\source\\repos\\LibraryManagement\\LibraryManagementTests\\LibraryManagementTests.csproj",
       "projectName": "LibraryManagementTests",
-      "projectPath": "C:\\Users\\user\\source\\repos\\LibraryManagement - Copy\\LibraryManagementTests\\LibraryManagementTests.csproj",
+      "projectPath": "C:\\Users\\user\\source\\repos\\LibraryManagement\\LibraryManagementTests\\LibraryManagementTests.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\source\\repos\\LibraryManagement - Copy\\LibraryManagementTests\\obj\\",
+      "outputPath": "C:\\Users\\user\\source\\repos\\LibraryManagement\\LibraryManagementTests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -7190,11 +7190,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\user\\source\\repos\\LibraryManagement - Copy\\LibraryBusiness\\LibraryBusiness.csproj": {
-              "projectPath": "C:\\Users\\user\\source\\repos\\LibraryManagement - Copy\\LibraryBusiness\\LibraryBusiness.csproj"
+            "C:\\Users\\user\\source\\repos\\LibraryManagement\\LibraryBusiness\\LibraryBusiness.csproj": {
+              "projectPath": "C:\\Users\\user\\source\\repos\\LibraryManagement\\LibraryBusiness\\LibraryBusiness.csproj"
             },
-            "C:\\Users\\user\\source\\repos\\LibraryManagement - Copy\\LibraryManagement\\LibraryData.csproj": {
-              "projectPath": "C:\\Users\\user\\source\\repos\\LibraryManagement - Copy\\LibraryManagement\\LibraryData.csproj"
+            "C:\\Users\\user\\source\\repos\\LibraryManagement\\LibraryManagement\\LibraryData.csproj": {
+              "projectPath": "C:\\Users\\user\\source\\repos\\LibraryManagement\\LibraryManagement\\LibraryData.csproj"
             }
           }
         }

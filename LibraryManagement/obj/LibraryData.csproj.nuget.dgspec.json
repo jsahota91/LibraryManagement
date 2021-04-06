@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\source\\repos\\LibraryManagement - Copy\\LibraryManagement\\LibraryData.csproj": {}
+    "C:\\Users\\user\\source\\repos\\LibraryManagement\\LibraryManagement\\LibraryData.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\source\\repos\\LibraryManagement - Copy\\LibraryManagement\\LibraryData.csproj": {
+    "C:\\Users\\user\\source\\repos\\LibraryManagement\\LibraryManagement\\LibraryData.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\source\\repos\\LibraryManagement - Copy\\LibraryManagement\\LibraryData.csproj",
+        "projectUniqueName": "C:\\Users\\user\\source\\repos\\LibraryManagement\\LibraryManagement\\LibraryData.csproj",
         "projectName": "LibraryData",
-        "projectPath": "C:\\Users\\user\\source\\repos\\LibraryManagement - Copy\\LibraryManagement\\LibraryData.csproj",
+        "projectPath": "C:\\Users\\user\\source\\repos\\LibraryManagement\\LibraryManagement\\LibraryData.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\source\\repos\\LibraryManagement - Copy\\LibraryManagement\\obj\\",
+        "outputPath": "C:\\Users\\user\\source\\repos\\LibraryManagement\\LibraryManagement\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
