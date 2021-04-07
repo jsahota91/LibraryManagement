@@ -35,12 +35,13 @@ Items 1-8 have been moved into Done after the sprint review.
 * Tests for CRUD operations per page were passing.
 * All items in Sprint backlog for Sprint1 had been transferred from Review to done.
 * Most sprint goals shown as user stories were met during Sprint1.
-![Sprint backlog](./Images/SprintReview1.PNG)
+*
+![Sprint backlog](./Images/SprintReview1.png)
 
 ##### Sprint2 Goals:
 For this sprint the items in the sprint backlog are:
 
-![Sprint backlog](./Images/Sbacklog.PNG)
+![Sprint backlog](./Images/Sbacklog.png)
 
 1. Changes to TextBox input fields font size and background colour.
 2. Listbox scroll to be added.
@@ -68,13 +69,13 @@ In the next sprint I am going to keep my documentation up to date.
 
 ### Trello Board
 This is my trello board after the Sprint1 Review
-![Sprint backlog](./Images/SprintReview1.PNG)
+![Sprint backlog](./Images/SprintReview1.png)
 
 This is my trello board during Sprint 2.
-![Sprint items](./Images/Sprint2.PNG)
+![Sprint items](./Images/Sprint2.png)
 
 This is the trello board ready for Sprint Review.
-![Sprint items](./Images/Sprint2Review.PNG)
+![Sprint items](./Images/Sprint2Review.png)
 
 [View Trello Board](https://trello.com/b/ED0l1XcJ/day-planner)
 - The trello board mainly consists of Epics and User Stories.
