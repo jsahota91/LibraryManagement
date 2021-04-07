@@ -19,8 +19,8 @@ The book records should display the assoicated authors, genres and location.
 The outstanding item left in the Project backlog is item 9 where the insert and delete functionality was not completed for the assoicate genre and authors.
 Items 1-8 have been moved into Done after the sprint review.
 
-![Product backlog](Pbacklog1.PNG)
-![Product backlog](Pbacklog2.PNG)
+![Product backlog](./images/Pbacklog1.PNG)
+![Product backlog](./images/Pbacklog2.PNG)
 
 ### User-story Definition of Done
 * CRUD functionality is working
@@ -33,45 +33,48 @@ Items 1-8 have been moved into Done after the sprint review.
 ##### Done:
 * GUI application had working CRUD functionaliy for each of the pages.
 * Tests for CRUD operations per page were passing.
-* Most of the items in Sprint backlog had been transferred from Review to done.
+* All items in Sprint backlog for Sprint1 had been transferred from Review to done.
 * Most sprint goals shown as user stories were met during Sprint1.
-![Sprint backlog](SprintReview1.PNG)
+![Sprint backlog](./images/SprintReview1.PNG)
+
+##### Sprint2 Goals:
+For this sprint the items in the sprint backlog are:
+
+![Sprint backlog](./images/Sbacklog.PNG)
+
+1. Changes to TextBox input fields font size and background colour.
+2. Listbox scroll to be added.
+3. Bug to be fixed on update title.
+4. Homepage buttons need to be in line with each other. 
+5. Up-to-date documentation and trello board.
 
 ### Sprint Retrospective
 
 ##### What went well: 
-* Most intended outcomes of user stories acheived.
-* Able to get tests passing and functionality working on the GUI
-* Got to learn how to use listbox and combo box to render results from the tables.
+* I was able to produce my intended outcome within the time frame given.
+* I could reach out to my colleagues during periods where I was hitting blockers.
+* Being organised and distributing time to each layer effectively was a strength in this project.
 
 ##### Improvements:
-1. Update the documentation
-2. Add a scrollbar if the list of records exceeds the ListBox size.
-3. Dropdown menu to navigate to other pages
-4. Fix sizes of user input text in textbox fields
-5. Fix bug update title on book page
+1. Update the documentation as I go along (quick notes)
+2. Have a trello board set up with user stories beforehand
+3. Create wireframes so structure/ layout is clear before designing wpf.
 
 ##### Actions:
-Work on item 1, 2, 4, 5 for the Sprint2.
+For the next sprint I would like to have my trello board with epics and user stories ahead of the Sprint so that I have clear outcomes outlined
+and it is easier to follow what tasks are outstanding.
 
-### Sprint 2 Goals
-For this sprint the items in the sprint backlog are:
-
-1. Complete the documentation
-2. Add scrollbar to list box
-3. Fix bug on Book page
-
-![Sprint backlog](Sbacklog.PNG)
+In the next sprint I am going to keep my documentation up to date.
 
 ### Trello Board
 This is my trello board after the Sprint1 Review
-![Sprint backlog](SprintReview1.PNG)
+![Sprint backlog](./images/SprintReview1.PNG)
 
 This is my trello board during Sprint 2.
-![Sprint items](Sprint2.PNG)
+![Sprint items](./images/Sprint2.PNG)
 
 This is the trello board ready for Sprint Review.
-![Sprint items](Sprint2Review.PNG)
+![Sprint items](./images/Sprint2Review.PNG)
 
 [View Trello Board](https://trello.com/b/ED0l1XcJ/day-planner)
 - The trello board mainly consists of Epics and User Stories.
@@ -86,7 +89,7 @@ Here is a class diagram of the tables and their relationships.
 
 -Location - Book has a 1 to 1 relationship.
 This Diagram can be found in the project folder under LibraryData layer (folder).
-![Sprint backlog](ClassDiagram.PNG)
+![Sprint backlog](./images/ClassDiagram.PNG)
 
 ### Overall Project Retrospective
 
@@ -102,18 +105,18 @@ This Diagram can be found in the project folder under LibraryData layer (folder)
 
 # User Guide
 1. You can start the application by selecting LibraryWPF from the dropdown list and clicking the play button adjacent to it.
-![App guide](startWPF.PNG)
+![App guide](./images/startWPF.PNG)
 
 2. Next select what page you want to view.
-![App guide](Home.PNG)
+![App guide](./images/Home.PNG)
 
 3. This is an example of the Book page. All pages have similar layouts and functionality so it is easy to navigate around the application.
-![App guide](Book.PNG)
+![App guide](./images/Book.PNG)
 
 - _**Update details of a book:**_ Select a record from the list. Amend the details. Id field is read-only. Then click update.
 
 * _**Insert a book:**_ Click Insert. Fill in the book and year published (both fields required). Click save. Click Refresh to see new record in list.
-![App guide](Insert.PNG)
+![App guide](./images/Insert.PNG)
 
 * _**Delete a book:**_ Select a record so the text boxes are populated. Then click delete.
 
@@ -122,7 +125,7 @@ This Diagram can be found in the project folder under LibraryData layer (folder)
 * _**Navigate to pages:**_ Click on the name of the pages at the top to view different pages.
 
 4. This is the records page, where you can view the associated Genre, Author, Location of a book.
-![App guide](Records.PNG)
+![App guide](./images/Records.PNG)
 - _**Update author of a book:**_ Select an author from the Old Authors dropdown, select a new author in the dropdown below. 
 Click update. The click Refresh when you see the prompt.
 
