@@ -19,8 +19,8 @@ The book records should display the assoicated authors, genres and location.
 The outstanding item left in the Project backlog is item 9 where the insert and delete functionality was not completed for the assoicate genre and authors.
 Items 1-8 have been moved into Done after the sprint review.
 
-![Product backlog](images/Pbacklog1.png)
-![Product backlog](images/Pbacklog2.png)
+![Product backlog](Pbacklog1.png)
+![Product backlog](Pbacklog2.png)
 
 ### User-story Definition of Done
 * CRUD functionality is working
@@ -61,17 +61,17 @@ For this sprint the items in the sprint backlog are:
 2. Add scrollbar to list box
 3. Fix bug on Book page
 
-![Sprint backlog](images/Sbacklog.png)
+![Sprint backlog](Sbacklog.png)
 
 ### Trello Board
 This is my trello board after the Sprint1 Review
-![Sprint backlog](images/SprintReview1.png)
+![Sprint backlog](SprintReview1.png)
 
 This is my trello board during Sprint 2.
-![Sprint items](images/Sprint2.png)
+![Sprint items](Sprint2.png)
 
 This is the trello board ready for Sprint Review.
-![Sprint items](images/Sprint2Review.png)
+![Sprint items](Sprint2Review.png)
 
 [View Trello Board](https://trello.com/b/ED0l1XcJ/day-planner)
 - The trello board mainly consists of Epics and User Stories.
@@ -86,7 +86,7 @@ Here is a class diagram of the tables and their relationships.
 
 -Location - Book has a 1 to 1 relationship.
 This Diagram can be found in the project folder under LibraryData layer (folder).
-![Sprint backlog](images/ClassDiagram.png)
+![Sprint backlog](ClassDiagram.png)
 
 ### Overall Project Retrospective
 
@@ -102,18 +102,18 @@ This Diagram can be found in the project folder under LibraryData layer (folder)
 
 # User Guide
 1. You can start the application by selecting LibraryWPF from the dropdown list and clicking the play button adjacent to it.
-![App guide](images/startWPF.png)
+![App guide](startWPF.png)
 
 2. Next select what page you want to view.
 ![App guide](images/Home.png)
 
 3. This is an example of the Book page. All pages have similar layouts and functionality so it is easy to navigate around the application.
-![App guide](images/Book.png)
+![App guide](Book.png)
 
 - _**Update details of a book:**_ Select a record from the list. Amend the details. Id field is read-only. Then click update.
 
 * _**Insert a book:**_ Click Insert. Fill in the book and year published (both fields required). Click save. Click Refresh to see new record in list.
-![App guide](images/Insert.png)
+![App guide](Insert.png)
 
 * _**Delete a book:**_ Select a record so the text boxes are populated. Then click delete.
 
@@ -122,7 +122,7 @@ This Diagram can be found in the project folder under LibraryData layer (folder)
 * _**Navigate to pages:**_ Click on the name of the pages at the top to view different pages.
 
 4. This is the records page, where you can view the associated Genre, Author, Location of a book.
-![App guide](images/Records.png)
+![App guide](Records.png)
 - _**Update author of a book:**_ Select an author from the Old Authors dropdown, select a new author in the dropdown below. 
 Click update. The click Refresh when you see the prompt.
 
